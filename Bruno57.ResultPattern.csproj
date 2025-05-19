@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Authors>Bruno Carmena</Authors>
+        <Description>A straightforward result pattern library designed for uniform API/Services/Handlers responses. This package manages and encapsulates common result statuses such as Error, NotFound, Invalid, and Success. 
+        </Description>
+
+        <Company>Bruno57 - https://brunocarmena.netlify.app</Company>
+        <PackageId>Bruno57.ResultPattern.Foundations</PackageId>
+        <Title>Bruno57.ResultPattern.Foundations</Title>
+        <PackageTags>result-pattern</PackageTags>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/brunocarmena57/Result-pattern</RepositoryUrl>
+        <Version>1.0.0</Version>
+        
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <RootNamespace>Bruno57.ResultPattern.Foundations</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentValidation"/>
+        <None Include="docs\README.md" Pack="true" PackagePath="" />
+        <None Include="LICENSE" Pack="True" PackagePath=""/>
+        <None Remove="licenses\LICENSE"/>
+    </ItemGroup>
+</Project>
